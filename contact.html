@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/contact.css">
+    <title>Le Timbré - Contact</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="timbres.html">Mes Timbres</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Afin de vous recontacter au mieux, veuillez remplir le formulaire ci-dessous</h1>
+            <form action="faux_contact.html">
+                <div id="satisfaction">
+                    <div id='satisfaction_range'>
+                        <label for="satisfaction">Veuillez rentrer le degré de satisfaction de mon site :</label>
+                        <input type="range" name="satisfaction" id="range" min="0" max="100" value="50">
+                    </div>
+                    <img src="./Assets/medium.png" alt="Visage" id="face">
+                </div>
+
+                <div id='name'>
+                    <label for="name">Nom et prénom : </label>
+                    <input type="text" name="name" required>
+                </div>
+
+                <div id='gender'>
+                    <p>Votre genre : </p>
+                    <div>
+                        <label>
+                            <input type="radio" name="gender" value="F" id="female" required>
+                            Femme
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="radio" name="gender" value="M" id="male">
+                            Homme
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="radio" name="gender" value="O" id="other">
+                            Autre
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="radio" name="gender" value="N" id="none">
+                            Non spécifié
+                        </label>
+                    </div>
+                </div>
+
+                <div id='mail'>
+                    <label for="mail">Votre Mail : </label>
+                    <input type="email" name="mail" required>
+                </div>
+                <div id='submit'>
+                    <input type="submit" value="Envoyer">
+                </div>
+        </form>
+       </section>
+    </main>
+
+    <footer>
+        <nav id="contact">
+            <ul>
+                <li><a href="contact.html"><img src="./Assets/footer_icons/contact.svg" alt="Logo de Contact">Me contacter</a></li> <!-- https://www.flaticon.com/authors/smashicons -->
+                
+                <!-- Twitter & Facebook factices -->
+                <!-- https://www.flaticon.com/fr/auteurs/pixel-perfect -->
+                <li><a href="http://www.Twitter.com" target="_blank"><img src="./Assets/footer_icons/twitter.svg" alt="Logo Twitter">Mon Twitter</a></li>
+                <li><a href="http://www.Facebook.com" target="_blank"><img src="./Assets/footer_icons/facebook.svg" alt="Logo Facebook">Mon Facebook</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script src="./JS/script.js"></script>
+</body>
+</html>

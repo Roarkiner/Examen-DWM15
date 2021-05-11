@@ -1,0 +1,31 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 1.4em;
+}
+
+form{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#satisfaction{
+    display: flex;
+    align-items: center;
+}
+
+#face{
+    height: 60px;
+    float: right;
+    margin-left: 50px;
+}
+
+#submit{
+    align-self: center;
+}
