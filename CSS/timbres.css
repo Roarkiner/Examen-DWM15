@@ -1,0 +1,55 @@
+main{
+    padding: 30px;
+}
+
+#h1_row{
+    display: flex;
+    justify-content: space-between;
+}
+
+#input_div{
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+}
+
+#input_div img:first-child{
+    margin-right: 10px;
+    height: 16px;
+}
+
+#input_div img:last-child{
+    margin-left: 10px;
+    height: 30px;
+}
+
+h2{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#collection, #interest{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.timbre_frame{
+    height: 100px;
+    width: 30%;
+    text-align: center;
+}
+
+.timbre_frame img{
+    height: 80%;
+    border: solid 1px black;
+}
+
+section{
+    background-color: darkgray;
+    border: 1px solid black;
+    border-radius: 25px;
+}

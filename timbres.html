@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./CSS/faux_contact.css">
+    <link rel="stylesheet" href="./CSS/timbres.css">
     <link rel="shortcut icon" href="./Assets/timbre-postal.svg" type="image/x-icon">
-    <title>Le Timbré - Contact</title>
+    <title>Le Timbré - Ma collection</title>
 </head>
 <body>
     <header>
@@ -18,9 +18,21 @@
     </header>
 
     <main>
-        <h1>Merci !</h1>
-        <p>Les informations que vous m'avez fournis seront examinés et je reviendrais vers vous dans les plus brefs délais.</p>
-        <a href="index.html">Retour à l'acceuil</a>
+        <div id='h1_row'>
+            <h1>Mes timbres !</h1>
+            <div id="input_div">
+                <img src="./Assets/timbres/square.svg" alt="Small square">
+                <input type="range" name="resize" id="resize" min="100" max="400" value="100">
+                <img src="./Assets/timbres/square.svg" alt="Big square">
+            </div>
+        </div>
+        <Section id='collection'>
+            <h2>Ma collection de magnifiques timbres (en constante expansion)</h2>
+        </Section>
+
+        <section id='interest'>
+            <h2>Les timbres qui m'intéressent (j'accepte les cadeaux)</h2>
+        </section>
     </main>
 
     <footer>
@@ -35,5 +47,7 @@
             </ul>
         </nav>
     </footer>
+    <script src="./JS/collection.js"></script>
+    <!-- <script src="./JS/resize.js"></script> -->
 </body>
 </html>
