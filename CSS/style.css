@@ -1,4 +1,9 @@
-*{
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body{
     margin: 0;
     padding: 0;
 }
@@ -33,7 +38,6 @@ header{
 }
 
 #navbar ul{
-    width: 100%;
     display: flex;
     justify-content: space-evenly;
 }
